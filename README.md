@@ -7,7 +7,7 @@ This project is a hostpital information system that supports the following types
 
 For running this application the following software is assumed that it is already installed.
 
-- **Python 3.6+**: Required for running the Flask application. 
+- **Python**: Required for running the Flask application. 
 - **Docker**: Docker is required to run the application in containers.
 - **Docker Compose**: Docker Compose is needed to manage multiple Docker containers.
 
@@ -45,8 +45,8 @@ This is a Docker Compose file to set up and manage both the Flask application an
 
 1. **Clone the Repository**:
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/jkapsalis/YpoxreotikiErgasia24_E19062_Kapsalhs_Ioannis.git
+    cd YpoxreotikiErgasia24_E19062_Kapsalhs_Ioannis
     ```
 
 2. **Build and Run Docker Containers**:
@@ -68,7 +68,7 @@ This endpoint allows the admin to log in their account by providing their correc
 ![alt text](./images/image.png)
 
 
-**Failed Login (Invalid Credentials):**  
+**Invalid Credentials:**  
 If the credentials are incorrect, the response is informing appropriately. 
 
 ![alt text](./images/image-1.png)
