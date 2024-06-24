@@ -11,6 +11,8 @@ For running this application the following software is assumed that it is alread
 - **Docker**: Docker is required to run the application in containers.
 - **Docker Compose**: Docker Compose is needed to manage multiple Docker containers.
 
+Also, for testing purposes **Postman** is used for sending the requests.
+
 
 ## Technologies Used
 
@@ -105,7 +107,8 @@ If some of the necessary fiels for the doctor creation is missing, then the resp
 ![alt text](./images/image-6.png)
 
 **Doctor Already Exists:**  
-If a doctor with the same email or username already exists in the database, the creation of the doctor fails and the response includes a coresponfing message. 
+If a doctor with the same email or username already exists in the database, the creation of the doctor fails and the response includes a coresponfing message.
+
 ![alt text](./images/image-7.png)
 
 **Unauthorised Admin**
@@ -214,14 +217,16 @@ This endpoint allows doctors to update their appointment cost by including a new
 **Missing New Cost:**  
 ![alt text](./images/image-22.png)
 
-### 5. View Future Appointments
+### 5. View Appointments
 
 **URL**: `/doctor/appointments`  
 **Method**: `GET`  
 This endpoint allows the doctor to view all their upcoming appointments.  
 
 **Successful Retrieval:** 
+
 ![alt text](./images/image-39.png)
+
 
 ## Patient Endpoints
 
