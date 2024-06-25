@@ -331,3 +331,10 @@ This endpoint, with the DELETE method, allows the patient to cancel a specific a
 
 **Appointment Not Found:**  
 ![alt text](./images/image-38.png)
+
+## References
+- [MongoDB Documentation](https://www.mongodb.com/docs/)
+- [Flask Documentation](https://flask.palletsprojects.com/en/3.0.x/)
+- [Docker Documentation](https://docs.docker.com/)
+- [Postman](https://www.postman.com/)
+- [Information Systems Labs GitHub](https://github.com/Apoulis/Information-Systems-Lab/tree/master)
